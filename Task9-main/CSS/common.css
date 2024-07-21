@@ -1,0 +1,111 @@
+* {
+	margin: 0%;
+	padding: 0%;
+
+
+}
+
+
+.custom-nav {
+    bottom: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.fs-12 {
+	font-size: 12px;
+}
+
+.fs-13 {
+	font-size: 13px;
+}
+.fs-14{
+	font-size: 14px;
+}
+
+.gap-18 {
+
+	gap: 18px;
+}
+.btn-arrow {
+	background-color: black;
+	color: white;
+	border: 0px;
+	padding: 1px 0px 0px 2px;
+	margin-top: 3px;
+}
+
+.footer-txt {
+
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.f-icons {
+	width: 35px;
+	height: 34px;
+}
+
+.heading{
+
+	font-weight: revert;
+    letter-spacing: -.05em;
+    font-family: HelveticaNeueLTPro-Hv;
+    font-size: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: .85em;
+}
+
+.bg-login {
+	background-color: #00a6ce;
+}
+
+.red {
+	color: red;
+}
+
+.needhelp{
+	color: white;
+	background-color: black;
+	position: fixed;
+	color: white;
+    background: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    bottom: 18px;
+}
+
+.a-logo{
+	width: 64%;
+    text-align: center;
+}
+.loginBtn{
+    background: black;
+    border: none;
+    outline: none;
+  }
+  .loginBtn a{
+    color: white;
+  }
+
+
+  .my-text {
+    /* add these styles to make the text move smoothly */
+    width: 100%;
+    display: inline-block;
+    animation: slide-right 20s linear infinite;
+    white-space: nowrap; /* prevent text from wrapping */
+  }
+
+  @keyframes slide-right {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(100%); /* Start from the right edge */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left edge */
+    }
+  }

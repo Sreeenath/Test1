@@ -1,0 +1,47 @@
+.bg-theme-btn{
+
+    width: 30%;
+    background: #ededed;
+}
+
+.bg-div{
+    
+    letter-spacing: .07143rem;
+    font-size: 12px;
+    font-family: HelveticaNeueW02-75Bold,HelveticaNeueBold,HelveticaNeue-Bold,"Helvetica Neue Bold",HelveticaNeue,"Helvetica Neue",TeXGyreHerosBold,Helvetica,Tahoma,Geneva,Arial,sans-serif;
+}
+
+.sort-btn{
+    width: 20%;
+    justify-content: space-around;
+}
+
+.pdt-div{
+    width: 396px;
+    height: 533px;
+}
+.img-pdt{
+    width: 75%;
+}
+
+.text-pdt{
+    font-size: 18px;
+    font-family: HelveticaNeueLTPro-Roman,HelveticaNeue-Roman,"Helvetica Neue Roman","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.pdt-rate{
+    
+    font-weight: 500;
+}
+
+.option-btn{
+    margin: auto;
+    background: #383838;
+    width: 30%;
+    font-size: 12px;
+}

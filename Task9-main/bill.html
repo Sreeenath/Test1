@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/bootstrap.css">
+      <link rel="stylesheet" href="CSS/css2.css">
+      <link rel="stylesheet" href="CSS/bill.css">
+      <link rel="stylesheet" href="CSS/common.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script  src="Script/bill.js"></script>
+      <title>Bill</title>
+   </head>
+   <body>
+      <nav class="bg-black position-sticky custom-nav">
+         <div class="pt-3 ps-5 pb-3 d-flex justify-content-between">
+            <div class="d-flex justify-content-evenly">
+               <a href="file:///D:/Git/Task9/index.html" class="a-logo">               
+                  <img src="https://www.skullcandy.in/wp-content/themes/skullcandy/images/skullcandy_logo.svg" style="width: 62%;" alt="logo">
+               </a>
+               <div class="text-white" >
+                  <ul class=" fs-12 navbar-nav list-group-horizontal ">
+                     <li class="nav-item ">
+                        <a class="nav-link " href="file:///D:/Git/Task9/category.html">SHOP</a>
+                     </li>
+                     <li class="nav-item ms-4">
+                        <a class="nav-link   " href="#">INSIDE SKULLCANDY</a>
+                     </li>
+                  </ul>
+               </div>
+            </div >
+            <div  class="text-white me-5">
+               <ul class=" fs-13 navbar-nav list-group-horizontal gap-18">
+                  <li class="nav-item text-white-50">
+                     <a class="nav-link " href="#">Support</a>
+                  </li>
+                  <li>
+                     <img class="rounded-circle"  src="Assests/indian_logo.png" alt="logo" style="width: 50px; height: 35px;">
+                  </li>
+                  <li class="pt-1">
+                     <form action="file:///D:/Git/Task9/signup_login.html">
+                        <button class="loginBtn">
+                        <span class="material-symbols-outlined text-white">
+                        person
+                        </span>
+                        </button>
+                     </form>
+                  </li>
+                  <li class="pt-1">
+                     <span class="material-symbols-outlined">
+                     search
+                     </span>
+                  </li>
+                  <li class="pt-1">
+                     <form action="file:///D:/Git/Task9/cart.html">
+                        <button class="loginBtn">
+                        <span class="material-symbols-outlined text-white">
+                        shopping_bag
+                        </span>
+                        </button>
+                     </form>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="text-center p-3 ">
+         <a  class="text-decoration-none" href="#">Use Coupon Code <b>MRP65</b> Get Flat <b style="font-size:22px; color:#f47c35;">65% OFF</b> on MRP <b>SHOP NOW &gt;</b></a>
+      </div>
+      <marquee  class=" fs-5 bg-black text-white" width="100%" direction="left" height="10%">
+         Get Additional 5% off upto ₹500 on all prepaid orders
+      </marquee>
+      <div class="text-center p-5 fs-1 fw-bold ">
+         <h2 class="heading">
+            CHECKOUT
+         </h2>
+      </div>
+      <div class="px-5 ms-5">
+         <!--Main Body Div-->
+         <div class="d-flex ps-3">
+            <!--Already have an account div-->
+            <span class="login-text">Already have an account?</span>
+            <a href="#" class="text-login"> Click here to login</a>
+         </div>
+         <!-- end of already have an account div-->
+         <div class="discount-text-div mt-4">
+            <!--Discount text div-->
+            <a href="#" class="showcoupon text-login">DISCOUNT/COUPON CODE</a>
+         </div>
+         <!-- end of discount text div-->
+         <div class="discount-div mt-2 p-4">
+            <!-- Coupon input div-->
+            <p>If you have a coupon code, please apply it below.</p>
+            <div class="d-flex">
+               <input type="text" class="coupon-code" name="coupon_code" placeholder="Coupon code" id="coupon_code"  value="">
+               <button type="submit" class="bg-login p-3 px-3 ms-5 text-white border-0" name="apply" value="apply">APPLY COUPON</button>
+            </div>
+         </div>
+         <!-- end  Coupon input div-->
+         <div  class="d-flex mt-4" >
+            <!--Address Div-->
+            <div class="w-50 mt-3">
+               <!--billing details div-->
+               <h3 class="billing-text">Billing details</h3>
+               <form action="#" class="text-form mt-3">
+                  <div class="d-flex">
+                     <div>
+                        <label for="fname">First name</label><span class="red">*</span><br>
+                        <input type="text" id="fname" class=" mt-2 text-input w-138" placeholder="Enter First Name" required>
+                     </div>
+                     <div class="ms-20">
+                        <label for="lname">Last name</label><span class="red">*</span><br>
+                        <input type="text" id="lname" class="text-input w-138 mt-2"  required>
+                     </div>
+                  </div>
+                  <div class="mt-4">
+                     <label for="cname">Company Name(optional)</label><br>
+                     <input type="text" id="cname" placeholder="Enter Company Name" class="mt-2 text-input w-96"  required>
+                  </div>
+                  <div class="mt-4">
+                     <label for="gst">GSTIN (Use Capital Letter) </label><br>
+                     <input type="text" id="gst" class="text-input w-96 mt-2" placeholder="Enter Your GST Number" required>
+                  </div>
+                  <div class="mt-4">
+                     <label >Country / Region  </label><span class="red">*</span><br>
+                     <label class="text-india mt-2">India  </label><br>
+                  </div>
+                  <div class="mt-4">
+                     <label for="address">Street address </label><span class="red">*</span><br>
+                     <input type="text" id="address" placeholder="House number and street name" class="mt-2 text-input w-96"  required>
+                     <input type="text" id="address2" placeholder="Apartment, suite, unit, etc. (optional)" class=" mt-4 text-input w-96"  required>
+                  </div>
+                  <div class="mt-4">
+                     <label for="city">Town / City </label><span class="red">*</span><br>
+                     <input type="text" id="city" placeholder="Enter City" class="mt-2 text-input w-96"  required>
+                  </div>
+                  <div class="mt-4">
+                     <label for="state">State / County </label><span class="red">*</span><br>
+                     <select id="state" class="text-input w-96 mt-2" name="state">
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Delhi" selected>Delhi</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                     </select>
+                  </div>
+                  <div class="mt-4">
+                     <label for="postcode">Postcode / ZIP </label><span class="red">*</span><br>
+                     <input type="text" id="postcode" placeholder="Enter Pincode" class="mt-2 text-input w-96"  required><br>
+                     <span id="postcodeError" style="color: red;"></span>	
+                  </div>
+                  <div class="mt-4">
+                     <label for="phone">Phone</label><span class="red">*</span><br>
+                     <input type="text" id="phone" minlength="10" maxlength="10" placeholder="Enter Phone Number" class="mt-2 text-input w-96"  required><br>
+                     <span id="phoneError" style="color: red;"></span>	
+                  </div>
+                  <div class="mt-4">
+                     <label for="email">Email Address</label><span class="red">*</span><br>
+                     <input type="text" id="email"  placeholder="Enter Email Address" class="mt-2 text-input w-96"  required><br>
+                     <span id="emailError" style="color: red;"></span>	
+                  </div>
+               </form>
+            </div>
+            <!--end billing details div-->
+            <div   class="w-50 mt-3">
+               <!--different address div-->
+               <div >
+                  <input type="checkbox" id="shipaddress" name="shipaddress" >
+                  <label for="shipaddress" class="text-shipaddress"> Ship to a different address?</label><br>
+               </div>
+               <div id="dshipaddress" style="display: none">
+                  <!--billing details div-->
+                  <form action="#" class=" text-form mt-4">
+                     <div class="d-flex">
+                        <div>
+                           <label for="fname1">First name</label><span class="red">*</span><br>
+                           <input type="text" id="fname1" class=" mt-2 text-input w-138" placeholder="Enter First Name" required>
+                        </div>
+                        <div class="ms-20">
+                           <label for="lname1">Last name</label><span class="red">*</span><br>
+                           <input type="text" id="lname1" class="text-input w-138 mt-2"  required>
+                        </div>
+                     </div>
+                     <div class="mt-4">
+                        <label for="cname1">Company Name(optional)</label><br>
+                        <input type="text" id="cname1" placeholder="Enter Company Name" class="mt-2 text-input w-96"  required>
+                     </div>
+                     <div class="mt-4">
+                        <label >Country / Region  </label><span class="red">*</span><br>
+                        <label  class="text-india mt-2">India  </label><br>
+                     </div>
+                     <div class="mt-4">
+                        <label for="address1">Street address </label><span class="red">*</span><br>
+                        <input type="text" id="address1" placeholder="House number and street name" class="mt-2 text-input w-96"  required>
+                        <input type="text" id="address12" placeholder="Apartment, suite, unit, etc. (optional)" class=" mt-4 text-input w-96"  required>
+                     </div>
+                     <div class="mt-4">
+                        <label for="city1">Town / City </label><span class="red">*</span><br>
+                        <input type="text" id="city1" placeholder="Enter City" class="mt-2 text-input w-96"  required>
+                     </div>
+                     <div class="mt-4">
+                        <label for="state1">State / County </label><span class="red">*</span><br>
+                        <select id="state1" class="text-input w-96 mt-2" name="state">
+                           <option value="Andhra Pradesh">Andhra Pradesh</option>
+                           <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                           <option value="Assam">Assam</option>
+                           <option value="Bihar">Bihar</option>
+                           <option value="Chhattisgarh">Chhattisgarh</option>
+                           <option value="Goa">Goa</option>
+                           <option value="Gujarat">Gujarat</option>
+                           <option value="Haryana">Haryana</option>
+                           <option value="Himachal Pradesh">Himachal Pradesh</option>
+                           <option value="Jharkhand">Jharkhand</option>
+                           <option value="Karnataka">Karnataka</option>
+                           <option value="Kerala">Kerala</option>
+                           <option value="Madhya Pradesh">Madhya Pradesh</option>
+                           <option value="Delhi" selected>Delhi</option>
+                           <option value="Maharashtra">Maharashtra</option>
+                           <option value="Manipur">Manipur</option>
+                           <option value="Meghalaya">Meghalaya</option>
+                           <option value="Mizoram">Mizoram</option>
+                           <option value="Nagaland">Nagaland</option>
+                           <option value="Odisha">Odisha</option>
+                           <option value="Punjab">Punjab</option>
+                           <option value="Rajasthan">Rajasthan</option>
+                           <option value="Sikkim">Sikkim</option>
+                           <option value="Tamil Nadu">Tamil Nadu</option>
+                           <option value="Telangana">Telangana</option>
+                           <option value="Tripura">Tripura</option>
+                           <option value="Uttar Pradesh">Uttar Pradesh</option>
+                           <option value="Uttarakhand">Uttarakhand</option>
+                           <option value="West Bengal">West Bengal</option>
+                        </select>
+                     </div>
+                     <div class="mt-4">
+                        <label for="postcode1">Postcode / ZIP </label><span class="red">*</span><br>
+                        <input type="text" id="postcode1" placeholder="Enter Pincode" class="mt-2 text-input w-96"  required><br>
+                        <span id="postcodeError1" style="color: red;"></span>	
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <!--end of different address div-->
+         </div>
+         <!--end of address div-->
+         <div>
+            <!--bill div-->
+            <h3 class="order-text mt-4">Your Order</h3>
+            <table class="w-100">
+               <tr>
+                  <th class="table-text w-50">
+                     Product
+                  </th>
+                  <th class="table-text">
+                     Subtotal
+                  </th>
+               </tr>
+               <tr>
+                  <td class="table-border">
+                     Push® Active True Wireless Earbuds - Ooze <b>x 1</b>	
+                  </td>
+                  <td class="table-border fs-14">
+                     ₹24,999.00						 
+                  </td>
+               </tr>
+               <tr>
+                  <td class="table-border table-text fs-14 font-w600">
+                     Subtotal
+                  </td>
+                  <td class="table-border fs-14">                           
+                     ₹24,999.00						 
+                  </td>
+               </tr>
+               <tr>
+                  <td class="table-border table-text fs-14 font-w600">
+                     Shipping
+                  </td>
+                  <td class="table-border fs-14 font-w600">                           
+                     Free shipping				 
+                  </td>
+               </tr>
+               <tr>
+                  <td class="table-border table-text fs-14 font-w600">
+                     Online Payment Discount
+                  </td>
+                  <td class="table-border fs-14">                           
+                     -₹500.00						 
+                  </td>
+               </tr>
+               <tr>
+                  <td class="table-border table-text fs-14 font-w600">
+                     Total
+                  </td>
+                  <td class="table-border fs-22">                           
+                     ₹24,499.00					 
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <!--end bill div-->
+         <div class="border  w-65 pt-2">
+            <!--payment option Div-->
+            <div >
+               <div class="payment-div">
+                  <div class="d-flex">
+                     <input type="radio" id="paytm" name="paymentmode" value="paytm" >
+                     <span class="ms-3">Paytm</span>
+                  </div>
+                  <div class="ms-4 w-46">
+                     <img src="Assests/paytm_logo.svg " alt="paytm" >
+                  </div>
+               </div>
+               <div>
+                  <div class="d-flex border-top payment-div">
+                     <input type="radio" id="razopay" name="paymentmode" value="razopay" >
+                     <span class="ms-3 mt-2">
+                     Razorpay - Zero Cost EMI/Credit Card/Debit Card/NetBanking/UPI </span>
+                     <img src="Assests/payment.svg " alt="razopay" >
+                  </div>
+               </div>
+            </div>
+            <!-- end payment option Div-->
+         </div>
+         <button type="submit" id="order" class="bg-login  mt-4 text-white border-0 place-order-btn" name="order" value="apply">PLACE ORDER</button>
+      </div>
+      <!--Main Body ends-->
+      <div class="container-fluid bg-black text-white mt-5">
+         <!--footer-->
+         <div class="d-flex">
+            <div class="col-4 py-5 ">
+               <div class="text-center">
+                  <h5 class="footer-txt">HEAR IT FIRST</h5>
+                  <form  class="d-flex justify-content-center mt-3">
+                     <input type="email" class="p-1" name="email"  placeholder="Sign up for Emails">
+                     <span>
+                     <button type="submit" class="btn-arrow ms-1 ">&gt;</button>
+                     </span>
+                  </form>
+               </div>
+            </div>
+            <div class=" d-flex text-white mt-5 pt-2 col-3 justify-content-between fs-14">
+               <div class="">
+                  <ul class="list-unstyled">
+                     <li>
+                        Help Center
+                     </li>
+                     <li class="mt-2">
+                        Contact Us
+                     </li>
+                     <li class="mt-2">
+                        Product Help
+                     </li>
+                     <li class="mt-2">
+                        Warranty
+                     </li>
+                     <li class="mt-2">
+                        Order Status
+                     </li>
+                  </ul>
+               </div>
+               <div class="">
+                  <ul class="list-unstyled">
+                     <li>
+                        Bulk Orders
+                     </li>
+                     <li class="mt-2">
+                        Press Release
+                     </li>
+                     <li class="mt-2">
+                        Blogs
+                     </li>
+                     <li class="mt-2">
+                        Contest
+                     </li>
+                  </ul>
+               </div>
+               <div class="">
+                  <ul class="list-unstyled">
+                     <li>
+                        About
+                     </li>
+                     <li class="mt-2">
+                        Born in Pc
+                     </li>
+                     <li class="mt-2">
+                        Carrers
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="text-center col-5 pt-5">
+               <h5 style="
+                  font-size: 16px;
+                  font-weight: bolder;">FOLLOW US</h5>
+               <div class="d-flex justify-content-evenly col-5 my-2 mx-auto">
+                  <div><img class="f-icons" alt="insta" src="Assests/insta.PNG "></div>
+                  <div><img class="f-icons" alt="youtube"  src="Assests/youtube.PNG "></div>
+                  <div><img class="f-icons" alt="facebook"  src="Assests/fb.PNG "></div>
+                  <div><img class="f-icons" alt="twitter"  src="Assests/twitter.PNG "></div>
+               </div>
+               <h5 style="
+                  font-size: 16px;
+                  font-weight: bolder;">CONTACT US</h5>
+               <div class="col-7 mt-3  mx-auto ps-5 text-start">
+                  <p>Email :- customercare@brandeyes.in</p>
+                  <p>Phone :- 011-42700400</p>
+                  <p>Mon-Fri, 10 AM - 4 PM</p>
+               </div>
+            </div>
+         </div>
+         <div class="needhelp">
+            <span>Need Help</span>
+         </div>
+         <div class="text-end text-white-50 -50 me-5 mt-4 fs-13">
+            <span>© 2023 Skullcandy.com All Rights Reserved</span>
+         </div>
+      </div>
+      <!--end of footer-->
+   </body>
+</html>

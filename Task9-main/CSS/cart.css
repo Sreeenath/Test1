@@ -1,0 +1,131 @@
+table, th, td {
+    border:1px solid black;
+  }
+
+  .table-heading{
+
+    font-family: HelveticaNeueLTPro-Hv,HelveticaNeue-Heavy,"Helvetica Neue Heavy","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 9px 12px;
+  }
+  .ms-6{
+    margin-left: 6%;
+  }
+.w-80{
+    width: 80px;
+}
+
+
+.w-15{
+    width: 15%;
+}
+.w-300{
+    width: 300px;
+}
+
+.pdt-name{
+
+    font-family: HelveticaNeueLTPro-Hv,HelveticaNeue-Heavy,"Helvetica Neue Heavy","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+   
+  }
+
+  .fw-800{
+    font-weight: 800;
+  }
+  .col-price{
+    font-size: 14px;
+    font-family: HelveticaNeueLTPro-Hv,HelveticaNeue-Heavy,"Helvetica Neue Heavy","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 8px;
+
+  }
+
+  .quantity{
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    height: 50px;
+    padding: 18px;
+    outline: none;
+    color: #777
+  }
+  table,th, td {
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1pt solid #ddd;
+  }
+
+  .font-family{
+    font-family: HelveticaNeueLTPro-Hv,HelveticaNeue-Heavy,"Helvetica Neue Heavy","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+  }
+  .fs-12{
+    font-size: 12px;
+  }
+
+  .coupon{
+    padding: 12px 1px 12px 12px;
+    font-size: 14px;
+  }
+
+  .gap-38{
+    gap:38%;
+  }
+
+  .subtotal-text{
+    font-size: 15px;
+    color: #757575;
+    font-family: inherit;
+    font-weight: 400 !important;
+  }
+
+  .amount-text{
+    font-size: 14px;
+    color: #383838;
+  }
+
+  .w-30{
+    width: 30%;
+  }
+
+  .p-btn{
+
+    padding: 13px 50px;
+  }
+
+  .cart-box{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    position: fixed;
+    z-index: 100;
+    bottom: 27px;
+    border-radius: 5px;
+    right: 40px;
+  }
+  .count-div{
+
+    background-color: #e94b35;
+    border-radius: 15px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    background: #e94b35;
+    color: #ffffff;
+  }
+
+  .tag-checkout{
+    text-decoration: none;
+    color: white;
+  }

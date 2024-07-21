@@ -1,0 +1,557 @@
+.fs-12 {
+	font-size: 12px;
+}
+
+.custom-nav {
+	bottom: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.pdt1-div::-webkit-scrollbar {
+	display: none;
+	/* Hide the scrollbar */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+.pdt1-div {
+	width: 100%;
+	height: 586px;
+	background-image: url('../Assests/1.jpg');
+	background-size: cover;
+	padding-top: 0px;
+
+	background-repeat: no-repeat;
+	padding-top: 7%;
+}
+
+
+.videoDiv {
+	width: 100%;
+	height: 586px;
+	background-image: url('../Assests/bg3.jpg');
+	background-size: cover;
+
+	background-repeat: no-repeat;
+
+}
+
+.txt-1 {
+	font-size: 50px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: -.05em;
+}
+
+.txt-2 {
+	font-size: 18px;
+	color: white;
+	width: 29%;
+	line-height: 1.3em;
+}
+
+.bg-4 {
+	background-image: url('../Assests/bg4.jpg');
+	width: 100%;
+	height: 586px;
+
+	background-size: cover;
+	padding-top: 119px;
+	padding-left: 100px;
+	background-repeat: no-repeat;
+}
+
+.keyDiv {
+	width: 100%;
+	height: 900px;
+	background-image: url('../Assests/bg-5.jpg');
+	background-size: cover;
+	padding-top: 119px;
+	padding-left: 100px;
+	background-repeat: no-repeat;
+}
+
+.specDiv {
+	width: 100%;
+	height: 900px;
+	background-image: url('../Assests/bg-6.jpg');
+	background-size: cover;
+	padding-top: 373px;
+	padding-left: 29px;
+	background-repeat: no-repeat;
+}
+
+.peopleDiv {
+
+	width: 100%;
+	height: 900px;
+	background-image: url('../Assests/bg7.jpg');
+	background-size: 103%;
+	background-size: cover;
+	padding-top: 119px;
+	padding-left: 100px;
+	background-repeat: no-repeat;
+
+
+}
+
+.txt-3 {
+	text-align: right;
+	padding-right: 15%;
+	padding-top: 14%;
+}
+
+.txt-4 {
+	width: 90%;
+	padding-left: 64%;
+}
+
+.txt-5 {
+	margin-left: 62%;
+	padding-left: 2%;
+	font-size: 48px;
+	padding-right: 9%;
+}
+
+.txt-6 {
+	padding-left: 67%;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.product_description {
+	font-weight: 700;
+	font-size: 54px;
+	letter-spacing: -.05em;
+	line-height: 0.85em;
+	text-transform: uppercase;
+}
+
+.pdtname-txt {
+	font-size: 28px;
+	line-height: .85em;
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: -.05em;
+}
+
+.w-24 {
+	width: 24%;
+}
+
+.price-text {
+	font-size: 49px;
+}
+
+#text_description {
+	margin-left: 47px;
+}
+
+.reviewstar {
+	font-size: 17px;
+}
+
+.img_box {
+	width: 100%;
+	margin: 0;
+}
+
+.color-box {
+	display: block;
+	text-align: center;
+	padding: 25px 25px 17px 25px;
+	background-color: #767676;
+}
+
+.w-38 {
+
+	width: 38%;
+}
+
+.clr {
+	margin-left: 37%;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-bottom: 12px;
+}
+
+.clr-text {
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+.bg-orange {
+	background-color: orangered;
+}
+
+.cartBtn {
+
+	padding: 14px;
+	width: 30%;
+	font-size: 13px;
+	color: #000;
+	letter-spacing: 1.99px;
+}
+
+.features_list {
+	font-size: 18px;
+}
+
+
+.features_list img {
+	width: 40px;
+	height: 40px;
+}
+
+.moretech-text {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+.txt-review {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: -.05em;
+}
+
+.reviewBtn {
+	color: white;
+	padding: 0 20px;
+	font-size: 12px;
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+	font-family: HelveticaNeueW02-75Bold, HelveticaNeueBold, HelveticaNeue-Bold, "Helvetica Neue Bold", HelveticaNeue, "Helvetica Neue", TeXGyreHerosBold, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	letter-spacing: .07143rem;
+	font-weight: 400;
+	background: #383838;
+}
+
+.star-font {
+	font-size: 16px;
+}
+
+.reviewTxt {
+	font-family: HelveticaNeueLTPro-Roman, HelveticaNeue-Roman, "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -.05em;
+
+}
+
+.review {
+	margin: auto;
+	width: 44%;
+	/* text-align: center; */
+	/* margin: 0; */
+	font-size: 14px;
+}
+
+.date-name {
+	color: #949494 !important;
+	font-size: 14px;
+}
+
+.pageno {
+	color: #ffffff80;
+	font-size: 14px;
+}
+
+.nextpage {
+	background: #abb8c3;
+	padding: 5px 20px;
+}
+
+.firstbox {
+	background-image: url('../Assests/color-1.png');
+	width: 30%;
+	height: 251px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 40px;
+}
+
+.boxes {
+
+
+	margin-top: -16px;
+}
+
+.box1-txt {
+	width: 92%;
+	font-size: 18px;
+}
+
+.setupbtn {
+
+	display: inline-block;
+	background: #000;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	padding: 13px 40px;
+	border-radius: 50px;
+	text-decoration: none;
+}
+
+.secondbox {
+	background-image: url('../Assests/color2.png');
+}
+
+.thirdbox {
+	background-image: url('../Assests/color3.png');
+}
+
+.outline_btn {
+	display: inline-block;
+	background: #000;
+	border: 1px solid #fff;
+	padding: 15px 40px;
+	border-radius: 50px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.pdt-txt {
+	font-size: 48px;
+}
+
+.pdt {
+	padding: 4.5vw 0;
+}
+
+.sprt-txt {
+	font-size: 13px;
+}
+
+@media screen and (max-width:768px) {
+
+	.pdt-txt {
+		font-size: 25px;
+	}
+
+	.firstbox {
+		width: 90%;
+		margin-left: 18px;
+		background-size: 100%;
+		padding: 20px;
+	}
+
+	.icon-txt {
+		text-align: center;
+	}
+
+	.text1 {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+
+	.setupbtn {
+		font-size: 9px;
+	}
+
+	.trouble-txt {
+		font-size: 25px;
+	}
+
+	.review {
+
+		width: 78%;
+	}
+
+	.pdt1-div {
+
+		background-image: url('../Assests/2.jpg');
+		background-size: cover;
+		background-position: center;
+
+		background-repeat: no-repeat;
+
+	}
+
+	.keyDiv {
+		background-image: url('../Assests/bg55.jpg');
+		padding-left: 0;
+		background-size: 331px;
+		height: 663px;
+		padding-top: 15px;
+	}
+
+	.videoDiv {
+		background-image: url('../Assests/bg-33.jpg');
+
+	}
+
+	.specDiv {
+
+		background-image: url('../Assests/bg66.jpg');
+		background-size: 333px;
+		height: 666px;
+	}
+
+	.peopleDiv {
+		background-image: url('../Assests/bg77.jpg');
+		background-size: 110%;
+		height: 706px;
+		padding-top: 0;
+		padding-left: 0;
+	}
+
+	.features_list {
+		font-size: 16px;
+	}
+
+	.txt-5 {
+		margin-left: 0;
+	}
+
+	.bg-4 {
+		background-image: url('../Assests/bg44.jpg');
+
+	}
+
+	.bg-4 {
+
+		padding-top: 48px;
+		padding-left: 0;
+	}
+
+	.txt-1 {
+		font-size: 9vw;
+		text-align: center;
+	}
+
+	.txt-4 {
+		padding-left: 0;
+	}
+
+	.txt-3 {
+		padding-left: 10%;
+	}
+
+	.specDiv {
+
+		padding-top: 57px;
+	}
+
+	.txt-2 {
+		font-size: 12px;
+		margin-left: 41px;
+		margin-right: 23px;
+		width: 78%;
+	}
+
+	.pdt1-div img {
+		max-width: 100%;
+		/* Ensure the image does not exceed the div's width */
+		max-height: 100%;
+	}
+
+	#box,#box1, #box2,#box3,#box4,#box5 {
+
+		width: 45%;
+	}
+
+	#text_description {
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	#product_description {
+		font-size: 28px;
+	}
+
+	#price-text {
+		font-size: 30px;
+		margin-left: 0px;
+	}
+
+	#pdt-name {
+		font-size: 16px;
+	}
+}
+
+
+@media screen and (min-width:331px) and (max-width:375px) {
+
+	.specDiv {
+		background-size: 375px;
+		height: 712px;
+	}
+
+	.keyDiv {
+		background-size: 375px;
+	}
+
+	.peopleDiv {
+		height: 825px;
+	}
+}
+
+@media screen and (min-width:376px) and (max-width:425px) {
+
+	.specDiv {
+		background-size: 425px;
+		height: 790px;
+	}
+
+	.keyDiv {
+		background-size: 425px;
+	}
+
+	.peopleDiv {
+		height: 935px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:769px) {
+
+	.specDiv {
+		background-size: 100%;
+		height: 1500px;
+	}
+
+	.keyDiv {
+		background-size: 100%;
+		height: 1208px;
+	}
+
+	.peopleDiv {
+		height: 1690px;
+	}
+
+	.bg-4 {
+		height: 1200px;
+	}
+
+	.videoDiv {
+		height: 1200px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1176px)
+
+{
+.firstbox{
+	height: 354px;
+    background-size: 214%;
+}
+}
+@media screen and (min-width:426px) and (max-width:768px){
+
+	.keyDiv,.specDiv{
+		background-size: 100%;
+	}
+}

@@ -1,0 +1,42 @@
+.h-664{
+   
+    height: 664px;
+}
+
+.w-33{
+
+    width:33%;
+}
+.w-34{
+
+    width:34%;
+}
+
+body{
+
+
+    position: absolute;
+}
+.h-450{
+   
+    height: 450px;
+    position: relative;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 103px;
+  }
+  .centered {
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 158px;
+  }
+ 

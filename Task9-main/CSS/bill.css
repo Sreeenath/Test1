@@ -1,0 +1,133 @@
+
+.login-text{
+    color: #515151;
+    font-size: 16px;
+}
+.text-login{
+
+    text-decoration: none;
+    font-size: 16px;
+    color: #00A6CE;
+}
+
+.discount-text-div{
+
+    border-top: 4px solid #1e85be;
+    padding: 30px 10px;
+    background-color: #f7f6f7;
+}
+.discount-div{
+    border: 1px solid #d3ced2; 
+    
+    text-align: left;
+    border-radius: 5px;
+}
+.coupon-code{
+    background-color: #f7f6f7;
+    border: 1px solid #a3a3a3;
+    outline: none;
+  
+    padding: 12px;
+    width: 50%;
+    float: left;
+}
+.bg-login {
+    font-size: 12px;
+	background-color: #00a6ce;
+    line-height: 1;
+    letter-spacing: .07143rem;
+    font-weight: 700;
+}
+
+.fs-28{
+    font-size: 28px;
+}
+.billing-text{
+    
+    letter-spacing: -.05em;
+    font-weight: 700;
+}
+
+.text-form{
+    color: #555;
+    font-family: HelveticaNeueW02-75Bold,HelveticaNeueBold,Geneva,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.text-input{
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #a3a3a3;
+    background: #f7f7f7;
+}
+.ms-20{
+    margin-left: 20%;
+}
+
+.w-138{
+    width: 138%;
+}
+.w-96{
+    width: 96%;
+}
+
+.text-india{
+    color: #212529;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.text-shipaddress{
+    
+    letter-spacing: -.05em;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #212529;
+}
+.order-text{
+    
+    letter-spacing: -.05em;
+    font-weight:bold;
+    color: #212529;
+}
+
+.table-text{
+    font-weight: 600;
+}
+
+.table-border{
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 13px;
+    padding: 9px 12px 9px 0px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+.font-w600{
+    font-weight: 700;
+}
+.fs-22{
+    font-size: 22px;
+}
+
+.payment-div{
+    
+    padding: 0px 0px 5px 60px;
+}
+.w-65{
+    width: 65%;
+}
+.w-46{
+    width: 46%;
+}
+.border-top{
+    border-top: 2px solid #d3ced2;
+}
+.place-order-btn{
+    padding: 18px 48px;
+    font-size: 12px;
+    color: #fff !important;
+    font-family: HelveticaNeueW02-75Bold,HelveticaNeueBold,HelveticaNeue-Bold,"Helvetica Neue Bold",HelveticaNeue,"Helvetica Neue",TeXGyreHerosBold,Helvetica,Tahoma,Geneva,Arial,sans-serif;
+    font-weight: 400;
+}
